@@ -1,6 +1,6 @@
-# API rest avec NodeJs et Express
+# Construire une API sécurisée pour une application d'avis gastronomiques
 ## Introduction
-Cette API RESTful est construite avec Node.js et Express, fournissant une interface pour les applications clientes de manière sécurisée.
+Le frontend est fourni et téléchargeable sur : https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6. vous trouverez le README inclus. Il contient la description des étapes du lancement du frontend.
 
 ## Prérequis
 
@@ -16,7 +16,8 @@ npm install
 
 ## Exécution de l'API
 
-Pour démarrer l'API, accédez à la racine du projet et exécutez la commande suivante dans votre terminal :
+MONGO_URL = " uri de votre bas de donnée mongodb"
+Avant de démarrer l'API, renommer le fichier .env.sample par .env. dans ce fichier mettez votre adresse de base de donnée mongodb (MONGO_URL) et un mot de passe (JWT_PASSWORD). Ensuite, vous pouvez accédez à la racine du projet et exécutez la commande suivante dans votre terminal :
 
 npm install nodemon
 
