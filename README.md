@@ -15,9 +15,7 @@ Pour installer les dépendances nécessaires, accédez à la racine du projet et
 npm install
 
 ## Exécution de l'API
-
-MONGO_URL = " uri de votre bas de donnée mongodb"
-Avant de démarrer l'API, renommer le fichier .env.sample par .env. dans ce fichier mettez votre adresse de base de donnée mongodb (MONGO_URL) et un mot de passe (JWT_PASSWORD). Ensuite, vous pouvez accédez à la racine du projet et exécutez la commande suivante dans votre terminal :
+Avant de démarrer l'API, renommer le fichier .env.sample par .env, dans ce fichier mettez votre adresse de base de donnée mongodb (MONGO_URL) et un mot de passe (JWT_PASSWORD). Ensuite, vous pouvez accédez à la racine du projet et exécutez la commande suivante dans votre terminal :
 
 npm install nodemon
 
