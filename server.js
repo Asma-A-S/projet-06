@@ -1,4 +1,6 @@
+// importer le package http
 const http = require('http');
+//importer notre fichier app.js
 const app = require('./app');
 
 const normalizePort = val => {
@@ -12,7 +14,7 @@ const normalizePort = val => {
   }
   return false;
 };
-const port = normalizePort(process.env.PORT || '3000');
+const port = normalizePort('3000');
 app.set('port', port);
 
 const errorHandler = error => {
@@ -43,5 +45,5 @@ server.on('listening', () => {
   const bind = typeof address === 'string' ? 'pipe ' + address : 'port ' + port;
   console.log('Listening on ' + bind);
 });
-
+//configurer le serveur pour qu'il écoute le port 3000
 server.listen(port);
